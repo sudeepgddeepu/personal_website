@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-tabs {
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    background: #007bff;
+    color: #fff;
+}
+
+
+.homey {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pro {
+    font-size: 3.5rem;
+    color: #333;
+    padding-right: 0%;
+}
+
+.prom {
+    font-size: 2.5rem;
+    color: #555;
+    padding-right: 0%;
+}
+
+.profile-img {
+    width: 500px;
+    border-radius: 100%;
+    padding-left: 0%;
+}
+
+
+.section {
+    padding: 30px;
+    text-align: center;
+}
+
+.section h2 {
+    color: #007bff;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+
+.contact-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-item {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.contact-item i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tab-content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+.about-us-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.section p{
+    text-align: justify;
+}
+.section h3{
+    color: #007bff;
+}
+.asu{
+    text-align: justify;
+}
+.rav{
+    padding-top: 80px;
+}
+.rami{
+    text-align: justify;
+}
+.omg{
+    font-size: 1.5rem;
+    color:black;
+}
+.rah{
+    font-size: 0.5rem;
+}
